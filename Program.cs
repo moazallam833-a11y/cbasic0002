@@ -54,6 +54,14 @@ namespace c_0002
 
             Console.WriteLine(sentence1);
             #endregion
+            #region Q6
+            string title2 = "Clean Code";
+            int pages2 = 464;
+
+            string sentence2 = $"Book: {title2}, Pages: {pages2}";
+
+            Console.WriteLine(sentence2);
+            #endregion
 
             #region Q8
             // Given int pages = 464;, write an if / else statement that prints
