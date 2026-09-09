@@ -50,6 +50,7 @@ namespace c_0002
                 Console.WriteLine("Short Book");
             }
             #endregion
+
             #region Q9
             // Given int pages = 464; and bool isAvailable = true;, print
             // "You can borrow this book" only if pages is greater than 300
@@ -63,6 +64,32 @@ namespace c_0002
                 Console.WriteLine("You can borrow this book");
             }
             #endregion
+
+            #region Q10
+            // Given string title = "Refactoring";, write a switch statement that prints
+            // "Great choice!" if the title is "Clean Code",
+            // "Nice pick!" if it's "Refactoring",
+            // and "Never heard of it" for anything else.
+
+            string title4 = "Refactoring";
+
+            switch (title4)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+            #endregion
+
+
 
 
 
