@@ -44,7 +44,16 @@ namespace c_0002
             sb.Replace("Book List", "Library");
 
             Console.WriteLine(sb);
-            #endregion 
+            #endregion
+
+            #region Q5
+            string title1 = "Clean Code";
+            int pages1 = 464;
+
+            string sentence1 = "Book: " + title1 + ", Pages: " + pages1;
+
+            Console.WriteLine(sentence1);
+            #endregion
 
             #region Q8
             // Given int pages = 464;, write an if / else statement that prints
