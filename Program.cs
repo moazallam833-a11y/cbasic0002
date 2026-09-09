@@ -114,6 +114,21 @@ namespace c_0002
             }
             #endregion
 
+            #region Q13
+            // Using the same books array, use a while loop to print every book title.
+
+            string[] books1 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            int i = 0;
+
+            while (i < books1.Length)
+            {
+                Console.WriteLine(books1[i]);
+                i++;
+            }
+            #endregion
+
+
 
 
 
