@@ -35,6 +35,17 @@ namespace c_0002
 
             #endregion
 
+            #region Q4
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+
+            sb.Replace("Book List", "Library");
+
+            Console.WriteLine(sb);
+            #endregion 
+
             #region Q8
             // Given int pages = 464;, write an if / else statement that prints
             // "Long Book" if pages is greater than 300, otherwise prints "Short Book".
