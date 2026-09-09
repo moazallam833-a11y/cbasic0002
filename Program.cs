@@ -89,6 +89,20 @@ namespace c_0002
             }
             #endregion
 
+            #region Q11
+            // Given int pages = 464;, use the ternary operator to store
+            // "Long Book" or "Short Book" into a variable sizeLabel.
+            // Long if pages > 300.
+
+            int pages6 = 464;
+
+            string sizeLabel = pages6 > 300 ? "Long Book" : "Short Book";
+
+            Console.WriteLine(sizeLabel);
+            #endregion
+
+
+
 
 
 
