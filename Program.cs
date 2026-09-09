@@ -128,6 +128,19 @@ namespace c_0002
             }
             #endregion
 
+            #region Q14
+            // Write a do-while loop that prints "Checking book..." exactly 3 times.
+
+            int item = 0;
+
+            do
+            {
+                Console.WriteLine("Checking book...");
+                item++;
+            }
+            while (item < 3);
+            #endregion
+
 
 
 
