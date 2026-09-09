@@ -186,6 +186,24 @@ namespace c_0002
             }
             #endregion
 
+            #region Q18
+            // Write a method PrintFirstBook() that prints the first book in the books array.
+            // If the array is empty, use return to exit the method early instead of printing anything.
+
+            string[] books6 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            void PrintFirstBook()
+            {
+                if (books6.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(books6[0]);
+            }
+
+            PrintFirstBook();
+            #endregion
 
 
 
