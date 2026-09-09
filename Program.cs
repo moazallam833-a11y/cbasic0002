@@ -54,6 +54,7 @@ namespace c_0002
 
             Console.WriteLine(sentence1);
             #endregion
+
             #region Q6
             string title2 = "Clean Code";
             int pages2 = 464;
@@ -61,6 +62,15 @@ namespace c_0002
             string sentence2 = $"Book: {title2}, Pages: {pages2}";
 
             Console.WriteLine(sentence2);
+            #endregion
+
+            #region Q7
+            string title3 = "Clean Code";
+            int pages3 = 464;
+
+            string sentence3 = string.Format("Book: {0}, Pages: {1}", title3, pages3);
+
+            Console.WriteLine(sentence3);
             #endregion
 
             #region Q8
