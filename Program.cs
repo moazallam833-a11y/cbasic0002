@@ -152,6 +152,24 @@ namespace c_0002
             }
             #endregion
 
+            #region Q16
+            // Using the same books array, loop through it and print each title,
+            // but stop completely (break) once you reach "Refactoring".
+
+            string[] books4 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            foreach (string book in books4)
+            {
+                Console.WriteLine(book);
+
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+            }
+            #endregion
+
+
 
 
 
