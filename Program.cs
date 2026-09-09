@@ -101,6 +101,20 @@ namespace c_0002
             Console.WriteLine(sizeLabel);
             #endregion
 
+            #region Q12
+            // Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };,
+            // use a for loop to print each book with its position number,
+            // like 1. Clean Code.
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            for (int s = 0; s < books.Length; s++)
+            {
+                Console.WriteLine($"{s + 1}. {books[s]}");
+            }
+            #endregion
+
+
 
 
 
